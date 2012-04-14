@@ -9,22 +9,17 @@ class Euca2oolsDeps < Formula
   def install
     install_boto
     install_m2crypto
-    raise
   end
   
   def install_boto
     system <<-EOS
-      tar zxvf boto-1.9b.tar.gz
-      cd boto-1.9b
-      python setup.py -q install
+      easy_install boto
     EOS
   end
   
   def install_m2crypto
     system <<-EOS
-      tar zxf M2Crypto-0.20.2.tar.gz
-      cd M2Crypto-0.20.2
-      python setup.py  -q install
+      easy_install M2Crypto
     EOS
   end
 end
