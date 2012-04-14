@@ -4,10 +4,14 @@
 This is used to install private Formulas that are not distributed by homebrew.
 For information on homebrew itself see http://mxcl.github.com/homebrew/
 
-To use the formula specified here run
+To use the formulas specified here, use the tap subcommand to pull them in.
 
-  brew tap svanzoest/homebrew-tap
+```
+  $ brew tap onerecovery/homebrew-tap
+```
 
-To remove the link use
+If you no longer want to track this repo, use
 
-  brew untap svanzoest/homebrew-tap
+```
+  $ brew untap onerecovery/homebrew-tap
+```
