@@ -7,6 +7,7 @@ class Euca2ools < Formula
 
   depends_on 'help2man'
   depends_on 'euca2ools-deps'
+  depends_on 'swig'
 
   def install
     system "make"
