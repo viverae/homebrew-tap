@@ -6,10 +6,11 @@ class Euca2ools < Formula
   md5 'a835e8fabd5875a5c8dbcba1bf89d402'
 
   depends_on 'help2man'
-  depends_on 'euca2ools-deps'
   depends_on 'swig'
 
   def install
+    system "easy_install boto"
+    system "easy_install M2Crypto"
     system "make"
   end
 end
