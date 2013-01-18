@@ -1,9 +1,9 @@
 require 'formula'
 
 class Euca2ools < Formula
-  url 'http://open.eucalyptus.com/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://eucalyptussoftware.com/downloads/releases/euca2ools-1.3.1.tar.gz'
-  homepage 'http://open.eucalyptus.com/downloads'
-  md5 'a835e8fabd5875a5c8dbcba1bf89d402'
+  url 'https://github.com/eucalyptus/euca2ools/archive/2.1.2.tar.gz'
+  homepage 'http://www.eucalyptus.com/download/euca2ools'
+  md5 '9a517e7bed703652a2264048e5a98588'
 
   depends_on 'help2man'
   depends_on 'swig'
