@@ -5,9 +5,6 @@ class Euca2ools < Formula
   homepage 'http://www.eucalyptus.com/download/euca2ools'
   md5 '9a517e7bed703652a2264048e5a98588'
 
-  depends_on 'help2man'
-  depends_on 'swig'
-
   def install
     system "easy_install boto"
     system "python setup.py install"
