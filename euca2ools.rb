@@ -10,7 +10,7 @@ class Euca2ools < Formula
 
   def install
     system "easy_install boto"
+    system "python setup.py install"
     system "easy_install M2Crypto"
-    system "python setup.py build"
   end
 end
