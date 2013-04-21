@@ -10,7 +10,7 @@ class Euca2ools < Formula
 
  url 'https://github.com/eucalyptus/euca2ools/archive/2.1.3.tar.gz'
  homepage 'http://www.eucalyptus.com/download/euca2ools'
- md5 'a76c752e6e7a7eeab978ba69f14788b4'
+ sha256 '1a20b7f9ca3e08c9ab32b34103d94e19be10e0a7b9eff1b0dc4013541bb7b321'
 
  def install
    # unfortunately, the pip version depends on swig which doesn't run before the python dependency runs
