@@ -3,4 +3,5 @@ class Vagrant < Cask
     homepage 'http://www.vagrantup.com'
     version '1.2.1'
     sha256 '27fe439c2e0521751e96dc2a45979a85272b5fc528ba012a0c9c0d527e7ac117'
+    system "open #{self.load(self.title).destination_path}/Vagrant.pkg"
 end
