@@ -7,6 +7,7 @@ class Euca2ools < Formula
  #depends_on 'swig'
  #depends_on 'M2Crypto' => :python
  depends_on 'boto' => :python
+ depends_on 'swig'
 
  url 'https://github.com/eucalyptus/euca2ools/archive/2.1.3.tar.gz'
  homepage 'http://www.eucalyptus.com/download/euca2ools'
