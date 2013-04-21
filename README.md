@@ -22,3 +22,5 @@ This repository also contains some experimental /Application installations suppo
   $ brew cask install virtualbox
 ```
 
+However, keep in mind that this installs a pkg, that still needs to be run manually. See [#14 Support pkg installers](https://github.com/phinze/homebrew-cask/issues/14)
+
